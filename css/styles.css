@@ -1,0 +1,263 @@
+:root {
+  /* Fonts */
+  --main-font: 'Roboto', sans-serif;
+  --secondary-font: 'Raleway', sans-serif;
+  /* Text colors */
+  --main-txt-cl: #212121;
+  --accent-txt-cl: #2196f3;
+  --btn-txt-cl: #ffffff;
+  /* Bg colors */
+  --dark-bg-cl: #2f303a;
+  --grey-bg-cl: #f5f4fa;
+  /* Others */
+}
+
+/* Body */
+body {
+  font-family: var(--main-font);
+  color: var(--main-txt-cl);
+}
+
+/* Reset style */
+.link {
+  text-decoration: none;
+  color: currentColor;
+}
+
+.list {
+  list-style: none;
+}
+
+/* Base styles */
+
+.btn {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: calc(30 / 16);
+  letter-spacing: 0.06em;
+  cursor: pointer;
+}
+
+.btn-mode-light {
+  color: #000000;
+}
+
+.btn-mode-dark {
+  color: #ffffff;
+}
+
+.btn:hover,
+.btn:focus {
+  color: var(--btn-txt-cl);
+  background-color: var(--accent-txt-cl);
+}
+
+/* Logo */
+.logo {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+}
+
+.logo-text1 {
+  color: #000000;
+}
+
+.logo-text2 {
+  color: #ffffff;
+}
+
+/* Header section */
+.header-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.02em;
+  color: #212121;
+  background-color: #ffffff;
+}
+
+.header-link:hover,
+.header-link:focus {
+  color: var(--accent-txt-cl);
+}
+
+.header-link-current {
+  color: var(--accent-txt-cl);
+}
+
+.header-contact {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+
+.header-contact:hover,
+.header-contact:focus {
+  color: var(--accent-txt-cl);
+}
+
+/* Main */
+
+/* Hero section */
+.hero {
+  background-color: #2f303a;
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: calc(60 / 44);
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.hero-btn {
+  color: var(--btn-txt-cl);
+  background-color: var(--accent-txt-cl);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+/* About section */
+.about-item {
+  width: 270px;
+  height: 101px;
+  left: 215px;
+  top: 774px;
+}
+
+.about-uppertitle {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+}
+
+.about-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+/* Work section */
+.work {
+  background-color: var(--btn-txt-cl);
+}
+
+.work-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: calc(42 / 36);
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.work-item {
+  width: 370px;
+  height: 294px;
+  left: 215px;
+  top: 1061px;
+}
+
+/*  Team section */
+.team {
+  background: var(--grey-bg-cl);
+}
+
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: calc(42 / 36);
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.team-item {
+  width: 270px;
+  height: 368px;
+  left: 215px;
+  top: 1635px;
+  background: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.team-uppertitle {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(19 / 16);
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.team-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: calc(19 / 16);
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+/* Fotter section */
+.footer {
+  background-color: #2f303a;
+}
+
+.address-item {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.address-contact {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* Portfolio */
+
+.project {
+  width: 370px;
+  height: 404px;
+}
+
+.project-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+
+.project-uppertitle {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
