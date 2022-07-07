@@ -78,12 +78,14 @@ body {
 }
 
 /* Header section */
-.header-link {
+header.header {
   font-weight: 500;
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
+}
+
+.header-link {
   color: var(--main-txt-cl);
-  background-color: var(--wh-txt-cl);
 }
 
 .header-link:hover,
@@ -93,12 +95,6 @@ body {
 
 .header-link-current {
   color: var(--accent-txt-cl);
-}
-
-.header-contact {
-  font-weight: 500;
-  line-height: calc(16 / 14);
-  letter-spacing: 0.02em;
 }
 
 .header-contact:hover,
@@ -148,6 +144,7 @@ body {
 
 .about-uppertitle {
   font-weight: 700;
+  font-size: 14px;
   line-height: calc(16 / 14);
   text-transform: uppercase;
   color: var(--main-txt-cl);
