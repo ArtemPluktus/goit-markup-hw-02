@@ -44,17 +44,9 @@ body {
   cursor: pointer;
 }
 
-.btn-mode-light {
-  color: var(--bl-txt-cl);
-}
-
-.btn-mode-dark {
-  color: var(--wh-txt-cl);
-}
-
 .btn:hover,
 .btn:focus {
-  color: var(--btn-txt-cl);
+  color: var(--wh-txt-cl);
   background-color: var(--accent-txt-cl);
 }
 
